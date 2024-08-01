@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  column-gap: 15px;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+}
+.tab-container {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  column-gap: 15px;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
